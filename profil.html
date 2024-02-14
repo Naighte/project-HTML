@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profil</title>
+    <link rel="stylesheet" href="CSS/index.CSS">
+    <link rel="stylesheet" href="CSS/animation.CSS">
+    <link rel="stylesheet" href="CSS/menu.css">
+</head>
+<body>
+    <header>
+        <!--<ul class="flex space-evenly">
+            <li  class="menu"><a href="profil.html">Page profil</a></li>
+            <li class="imageMenu"><a href="profil.html"><ion-icon size="large" name="person-outline"></ion-icon></a></li>
+        </ul>-->
+
+        <nav>
+            <input type="checkbox" role="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+            <ul id="menu">
+    
+                <li><a href="index.html" id="active">Accueil</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="http://www.astymoulin.be/j34" target="_blank" rel="noopener noreferrer">Mon école</a> <i class="fas fa-heart"></i></li> 
+                <!-- Source menu : https://www.guyom-design.com/blog/astuces/css/creer-hamburger-menu-css/ -->
+            </ul>
+        </nav>
+        <!--<a href="profil.html">Votre profil</a>-->
+    </header>
+    <main>
+        <h1>Votre profil</h1>
+        <ol>
+            <li>
+                <p>Nom</p>
+                <p>- Vigneron</p>
+            </li>
+            <li>
+                <p>Prénom</p>
+                <p>- Geatan</p>
+            </li>
+            <li>
+                <p>Adresse postale</p>
+                <p>- Rue Champêtre, 6324 Bruxelle</p>
+            </li>
+            <li>
+                <p>Photo de profil</p>
+                <img id="imageProfil" src="Images/profil.png" alt="Mon image de profil">
+            </li>
+        </ol>
+        <!--<div>
+            <button class="btn btn-load">
+                Chargement
+                
+            </button>-->
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>  
+</body>
+</html>
